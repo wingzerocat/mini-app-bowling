@@ -147,8 +147,9 @@ class App extends React.Component {
                     bonus: newBonus,
                     total: total + 10
                 })
-            } 
-            else if (frame[0] + points === 10) {
+            } else if (frame[0] + points > 10) {
+                // Stops from having more than 10 points
+            } else if (frame[0] + points === 10) {
                 frame[1] = '/';
                 frame[2] = 10;
                 newBonus[Math.floor(activeFrame) - 1][0] = 1;
