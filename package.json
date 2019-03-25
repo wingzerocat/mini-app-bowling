@@ -1,0 +1,38 @@
+{
+  "name": "mini-app-bowling",
+  "version": "1.0.0",
+  "description": "tracks game score",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "nodemon server/index.js",
+    "react-dev": "webpack -d --watch",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wingzerocat/mini-app-bowling.git"
+  },
+  "author": "Michael Lou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wingzerocat/mini-app-bowling/issues"
+  },
+  "homepage": "https://github.com/wingzerocat/mini-app-bowling#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "bootstrap": "^4.3.1",
+    "express": "^4.16.4",
+    "jquery": "^3.3.1",
+    "mongoose": "^5.4.19",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
+}
